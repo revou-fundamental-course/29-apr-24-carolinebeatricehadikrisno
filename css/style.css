@@ -37,7 +37,10 @@
 }
 
 .login-image{
-    border:0
+    border:0;
+    width:60%;
+    height:730px
+
 }
 
 .dots{
