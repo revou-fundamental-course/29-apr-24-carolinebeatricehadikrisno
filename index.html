@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Caroline Portfolio</title>
+    <title>MyTravel</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -32,11 +32,16 @@
             </header>
              <article class="login-login">
                 <label>Username:</label>
-                <input type="text"/>
+                <input required type="text" placeholder="nama username anda"/>
+                <p>or</p>
+                <label>E-mail Address:</label>
+                <input required type="text" placeholder="example@e-mail.com"/>
                 <br>
                 <label>Password:</label>
-                <input type="text"/>
-                <p>Apa tujuanmu traveling kali ini?</p>
+                <input required type="text" placeholder="your password"/>
+                <p class="forgot-password"><a href="https://www.google.com/">
+                Forgot password?</a></p>
+                <p class=>Apa tujuanmu traveling kali ini?</p>
                 <select>
                     <option>Liburan</option>
                     <option>Bisnis</option>
@@ -59,10 +64,14 @@
 
     <article class="testimony">
         <section>
-            <p><b>Nelly Siska Goenawan</b></p>
-            <p><i>"Liburan bersama MyTravel jadi seru dan menyenangkan!"</i></p>
+            <div class="nelly">
+            <img src="assets/testi1.jpg" width="65" height="65" style="border-radius: 50%;">
+            <p class="nelly-name"><b>  Nelly Siska Goenawan</b></p></div>
+            <p><i>"Terima kasih My Travel, liburan saya jadi seru dan menyenangkan!"</i></p>
             <br>
-            <p><b>Danny Tjandrawidjaja</b></p>
+            <div class="danny">
+            <img src="assets/testi2.jpg" width="65" height="65" style="border-radius: 50%;">
+            <p class="danny-name"><b>  Danny Tjandrawidjaja</b></p></div
             <p><i>"Berkat Mytravel, aku bisa mengunjungi banyak tempat wisata dalam beberapa hari saja."</i></p>
          </section>
     </article>
@@ -72,7 +81,9 @@
             <header>
             <h2>Our Offers</h2>
             </header>
-            <p><b>Meliputi Banyak Negara</b></p>
+            <div class="offer1">
+            <img src="assets/pointblack.jpg" width="20" height="20" style="border-radius: 50%;">  
+            <p class="offer1-1"><b>Meliputi Banyak Negara</b></p></div>
             <p>Cangkup pelayanan MyTravel tersedia untuk lebih dari 150 negara dan 2000 kota.</p>
             <br>
             <p><b>Agen Travel Professional</b></p>

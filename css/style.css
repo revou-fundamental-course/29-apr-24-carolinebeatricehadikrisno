@@ -43,7 +43,7 @@
 }
 
 .login-form{
-    height: 580px;
+    height: 730px;
     width: 35%;
     text-align: center;
     border-radius: 20px;
@@ -55,7 +55,12 @@
 .login-login{
     display: flex;
     flex-direction: column;
-    line-height: 20px
+    line-height: 20px;
+    ::placeholder{text-align:center
+}}
+
+.forgot-password{
+    font-size: 13px;
 }
 
 .login-login>input{
@@ -64,6 +69,7 @@
     border-color: hotpink;
     margin: auto;
     width: 70%;
+    text-align: center;
 }
 
 .login-login>select{
@@ -100,6 +106,23 @@
     margin-right: 100px;
     margin-bottom: 50px;
     font-family: system-ui;
+    width:51%;
+}
+
+.nelly{
+    display: flex;
+}
+
+.nelly-name{
+    padding-left: 10px;
+}
+
+.danny{
+    display: flex;
+}
+
+.danny-name{
+    padding-left: 10px;
 }
 
 .company-benefits{
@@ -109,6 +132,15 @@
     margin-bottom: 50px;
     font-family: system-ui;
     line-height: 15px;
+    width:51%
+}
+
+.offer1{
+    display: flex;
+}
+
+.offer1-1{
+    padding-left: 10px;
 }
 
 .our-package{
