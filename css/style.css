@@ -36,6 +36,12 @@
     margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+    .login homepage{
+        flex-direction: column;
+    }  
+}
+
 .login-image{
     border: 1px solid black;
     width: 60%;
