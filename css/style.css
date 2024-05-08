@@ -38,9 +38,15 @@
 
 .login-image{
     border: 1px solid black;
-    height: 730px;
     width: 60%;
 }
+
+.banner-item{
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    }
+
 
 .login-form{
     height: 730px;
