@@ -290,6 +290,16 @@ font-family: system-ui;
 
     .company-motto>h1{
         font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .company-motto>button{
+        border-color: hotpink;
+        height: 70px;
+        border-radius: 20%;
+        width: 20%;
+        margin: auto;
+        font-family: math;
     }
 
     .credits{
