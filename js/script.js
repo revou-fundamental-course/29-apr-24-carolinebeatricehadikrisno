@@ -1,3 +1,42 @@
+//Ini Javascript
+
+
+//Validate function
+function validation() {
+    let username = document.getElementById('form-username');
+    console.log(username.value); 
+    if (username.value == '' || username.value == null) {
+        username.style.border = '1px solid blue';
+        alert('Input anda kosong, mohon periksa kembali')
+    }
+}
+
+function validation() {
+    let username = document.getElementById('form-email');
+    console.log(username.value); 
+    if (username.value == '' || username.value == null) {
+        alert('Input anda kosong, mohon periksa kembali')
+    }
+}
+
+function validation() {
+    let username = document.getElementById('form-password');
+    console.log(username.value); 
+    if (username.value == '' || username.value == null) {
+
+        alert('Input anda kosong, mohon periksa kembali')
+    }
+}
+document.getElementById('submit-button').addEventListener('click', () => validation())
+
+
+
+
+
+
+
+
+
 //Section Slide
 let indexSlide = 1; // [0, 1, 2, 3, 4, 5]
 showSlide(1);

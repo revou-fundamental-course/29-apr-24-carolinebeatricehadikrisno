@@ -37,15 +37,15 @@
                 <h1>Contact Us</h1>
                 <p>Agen kami akan menghubungi anda dalam 1 x 24 jam</p>
             </header>
-             <article class="login-login">
+             <form class="login-login">
                 <label>Username:</label>
-                <input  type="text" id="form-username" placeholder="your username"/>
+                <input  type="text" required id="form-username" placeholder="your username"/>
                 <p>or</p>
                 <label>E-mail Address:</label>
-                <input type="text" placeholder="example@e-mail.com"/>
+                <input type="text" required id="form-email" placeholder="example@e-mail.com"/>
                 <br>
                 <label>Password:</label>
-                <input type="text" placeholder="your password"/>
+                <input type="text" required id="form-password" placeholder="your password"/>
                 <p class="forgot-password"><a href="https://www.google.com/">
                 Forgot password?</a></p>
                 <p class=>Apa tujuanmu traveling kali ini?</p>
@@ -56,14 +56,15 @@
                     <option>Eksplorasi</option>
                 </select>
                 <br>
-                <button>Submit</button>
+                <button type="button" id="submit-button">Submit</button>
+                </article>
             <br>
             <br>
             <article class="login-signup"
                 <p>Belum punya akun?</p>
                 <p>Mulai rencanakan liburan anda di bawah ini</p>
                 <button>Sign up</button>
-            </article>
+            </form>
             </div>
     </section>
     <script src="js/script.js"></script>
